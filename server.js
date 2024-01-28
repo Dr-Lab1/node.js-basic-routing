@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({
 app.use((req, res) => {
     var url = (req.url == '/') ? '/index.html' : req.url
     var filename = __dirname + '/public' + url
-    console.log(filename)
     fs.readFile(filename, 'utf-8', (err, data) => {
         if (err) {
             res.end("Page Not Found")
