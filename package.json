@@ -1,0 +1,12 @@
+{
+    "name": "myApp",
+    "author": "Dr-Lab1",
+    "description": "azerty",
+    "version": "0.0.1",
+    "dependencies": {
+        "connect": "3.2.x",
+        "body-parser": "1.8.x"
+    },
+    "engine": "0.10.x",
+    "main": "server.js"
+}
